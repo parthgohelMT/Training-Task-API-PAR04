@@ -1,0 +1,34 @@
+{
+  "name": "training-task-api-par-04",
+  "version": "1.0.0",
+  "description": "Node.js CRUD API with MySQL, Sequelize, and Basic Authentication in TypeScript",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "ts-node-dev --respawn --transpile-only app.ts"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "typescript",
+    "sequelize",
+    "mysql",
+    "crud",
+    "basic-auth"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "sequelize": "^6.37.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
